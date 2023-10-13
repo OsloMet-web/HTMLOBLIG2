@@ -1,0 +1,60 @@
+
+
+body, h1, h2, p {
+
+    margin: 0;      /*standard å nullstille standarder fra nettleser*/
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: rgba(105, 98, 89, 0.758);
+    text-align: center;
+    padding: 20px;
+}
+.main-heading{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.sub-title{
+    font-size: 20px;
+    color: dimgray;
+    margin-bottom: 10px;
+}
+.author-info{
+    margin-bottom: 10px;
+}
+#author{
+    font-weight: bold;
+}
+.date {
+    color: azure;
+    margin-left: 10px;
+}
+.article-image{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.photohrapher {
+    color: azure;
+    font: italic;
+    margin-bottom: 20px;
+}
+article{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h2.sub-heading{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+p{
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
