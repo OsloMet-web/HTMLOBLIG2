@@ -45,8 +45,8 @@ body, h1, h2, p {
     height: auto;
     margin-bottom: 10px;
   }
-  .photohrapher {
-    color: azure;
+  .photographer {
+    color: rgb(173, 182, 182);
     font: italic;
     margin-bottom: 20px;
   }
