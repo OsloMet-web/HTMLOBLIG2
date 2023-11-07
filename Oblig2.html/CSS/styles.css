@@ -8,9 +8,31 @@ body, h1, h2, p {
   
   body{
     font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  .index-specific{
     background-color: rgb(120, 117, 122);
   }
   
+  .index2-specific{
+    background-color: white;
+  
+  }
+  .index2-titel-heading {
+    background-color: rgb(255, 255, 255);
+    font-size: larger;
+    color: black;
+    text-align: left;
+    margin: 0px;
+    font-size: 20px;
+    text-align: left;
+
+  }
+  .index2-body{
+    text-align: left;
+  }
+
+
   header{
     text-align: center;
     padding: 20px;
@@ -65,4 +87,48 @@ body, h1, h2, p {
     line-height: 1.5;
     margin-bottom: 20px;
   }
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+  .navbar-container {
+    list-style-type: none ;
+    margin-top: 0;
+    padding: 0;
+    background-color: rgb rgb(233, 103, 10);
+    overflow: hidden;
+    list-style: Horizontal;
+  }
+  
+  nav ul  {
+    list-style: Horizontal;
+    overflow: hidden;
+    background-color: rgb(255, 128, 0);
+  
+}
+
+nav ul il {
+  float: right;
+}
+
+ nav il a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ }
+  .oslomet-logo img {
+    width: 40px;
+    border: 2px ;
+    border-radius: 5px;
+    float: left;
+    margin-right: 1px;
+  }
+.student-item {
+  float: left;
+  margin-right: 560px;
+}
+
   
